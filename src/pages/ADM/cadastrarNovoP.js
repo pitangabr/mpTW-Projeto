@@ -5,16 +5,7 @@ import MenuAdm from '../../Componentes/MenuADM';
 import { Link } from 'react-router-dom';
 import note5 from '../../assets/imagens/note5.jpg';
 
-import {MDBNavbar, MDBNavbarBrand, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBContainer} from 'mdbreact';
-import { BrowserRouter as Router } from 'react-router-dom';
-
 class CadastrarNovoP extends Component {
-    toggleCollapse = collapseID => () => {
-        this.setState(prevState => ({
-                                      collapseID: prevState.collapseID !== collapseID ? collapseID : ''
-                                                                                                        }));
-    };
-    
     render() {
         return(
         <>
@@ -75,46 +66,7 @@ class CadastrarNovoP extends Component {
                         </form>
                     </div>
                 </section>
-            </main>
-
-            <Router>
-        <MDBContainer>
-          <MDBNavbar
-            color='light-blue lighten-4'
-            style={{ marginTop: '20px' }}
-            light
-          >
-            <MDBContainer>
-              <MDBNavbarBrand>Navbar</MDBNavbarBrand>
-              <MDBNavbarToggler
-                onClick={this.toggleCollapse('navbarCollapse1')}
-              />
-              <MDBCollapse
-                id='navbarCollapse1'
-                isOpen={this.state.collapseID}
-                navbar
-              >
-                <MDBNavbarNav left>
-                  <MDBNavItem active>
-                    <MDBNavLink to='#!'> 
-                        Nome Completo:Carlos Vieira Santos.
-                        ID: 23387432784732.
-                        Cargo: Administrador RH.
-                        Status: Aguardando Aprovação.
-                    </MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to='#!'>Link</MDBNavLink>
-                  </MDBNavItem>
-                  <MDBNavItem>
-                    <MDBNavLink to='#!'>Profile</MDBNavLink>
-                  </MDBNavItem>
-                </MDBNavbarNav>
-              </MDBCollapse>
-            </MDBContainer>
-          </MDBNavbar>
-        </MDBContainer>
-      </Router>
+            </main>     
         </>
         )
     }

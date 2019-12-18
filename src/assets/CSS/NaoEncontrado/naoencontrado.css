@@ -1,0 +1,17 @@
+.defect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    background: chartreuse;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgb(29,38,113,0.8), rgb(92,225,230,0.6), rgb(241,105,132,1)), url('../../imagens/back.jpeg');
+}
+.erro h6{
+    font-size: 4em;
+}
+.robo{
+    width: 20vw;
+}
