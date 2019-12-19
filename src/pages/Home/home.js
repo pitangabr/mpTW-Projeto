@@ -27,6 +27,7 @@ class Home extends Component {
       <Menu />
       <main id="home_main">
         <div id= "banner">
+       
             <CarouselPage/>
         </div>
         {/* <!--Fim home_banner--> */}

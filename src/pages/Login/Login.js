@@ -107,7 +107,7 @@ class Login extends Component {
                                 </div>
 
                                 <div className="entre1">
-                                    <Link to = "/home"><button  class="border-0" onClick={this.realizarLogin.bind(this)} type = "submit">Entrar</button></Link>
+                                    <Link to ="/home"><button  class="border-0" type = "submit">Entrar</button></Link>
                                 </div>
 
                                 <div className="cadastro">

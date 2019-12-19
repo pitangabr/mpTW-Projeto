@@ -6,6 +6,10 @@ import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBView, MDBContainer }
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import 'bootstrap-css-only/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
+import '../assets/imagens/bg.png';
+import '../assets/imagens/bg2.jpg';
+import '../assets/imagens/bg3.jpg';
+
 
 const CarouselPage = () => {
   return (
@@ -22,7 +26,7 @@ const CarouselPage = () => {
             <MDBView >
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"
+                src={require("../assets/imagens/bg.png")}
                 alt="First slide"
               />
             </MDBView>
@@ -31,7 +35,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(129).jpg"
+                src={require("../assets/imagens/bg2.jpg")}
                 alt="Second slide"
               />
             </MDBView>
@@ -40,7 +44,7 @@ const CarouselPage = () => {
             <MDBView>
               <img
                 className="d-block w-100"
-                src="https://mdbootstrap.com/img/Photos/Slides/img%20(70).jpg"
+                src={require("../assets/imagens/bg3.jpg")}
                 alt="Third slide"
               />
             </MDBView>

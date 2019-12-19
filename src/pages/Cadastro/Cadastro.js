@@ -1,9 +1,7 @@
 import React, {Component} from 'react'; 
 import '../../assets/CSS/Cadastro/Cadastro.css';
 import logo from '../../assets/imagens/logo1.png';
-
-
-
+import { Link } from 'react-router-dom';
 
 class Cadastro extends Component {
 
@@ -83,7 +81,7 @@ atualizaEstado = (event) => {
                                 {/* <!-- Input criado para usuário inserir senha dde acesso --> */}
 
                                 <div className="criar_conta">
-                                    <button type = "submit">Criar Conta</button>
+                                    <Link to ="/perfiladmnovoscadastros"><button type = "submit">Criar Conta</button></Link>
                                 </div>
 
                                 <div className="termo">
