@@ -37,6 +37,9 @@ import Acessorio from './pages/Produtos/Acessórios';
 
 //importando tela da descrição de produto
 import DescricaoProduto from './pages/Produtos/DescricaoProduto';
+import DescricaoSmat from './pages/Produtos/DescricaoSmat';
+import DescricaoMonitor from './pages/Produtos/DescricaoMonitor';
+import DescricaoAcess from './pages/Produtos/DescricaoAcess';
 
 
 const Ways = (
@@ -66,12 +69,16 @@ const Ways = (
                 <Route path = "/perfiladmnovoscadastros" component = {admNovosCadastros}/>
                 <Route path = "/perfiladmlistadeusuarios" component = {admListaUsuarios}/>
                 <Route path = "/cadastrarprodutos" component = {CadastrarNovoP}/>
+                
 
                 {/* Criando rota telas perfil de usuario */}
                 <Route path = "/perfilusuario" component = {PerfilUsuario}/>
                 <Route path = "/perfilusuariointeresse" component = {usuarioInteresse}/>
                 <Route path = "/perfilusuarionotificacoes" component = {usuarioNotificacao}/>
                 <Route path = "/descricaoproduto" component = {DescricaoProduto}/>
+                <Route path = "/descricaosmatphones" component = {DescricaoSmat}/>
+                <Route path = "/DescricaoMonitor" component = {DescricaoMonitor}/>
+                <Route path = "/DescricaoAcessorio" component = {DescricaoAcess}/>
 
                 {/* Criando rota tela nao encontrado */}
                 <Route component = {NaoEncontrado}/>

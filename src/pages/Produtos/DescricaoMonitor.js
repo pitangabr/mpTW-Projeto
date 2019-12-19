@@ -4,9 +4,9 @@ import Menu from '../../Componentes/Menu';
 import Rodape from '../../Componentes/Rodape';
 import { Link } from 'react-router-dom';
 
-import produto from '../../assets/imagens/note6.jpg';
+import comp3 from '../../assets/imagens/comp3.jpg';
 
-class DescricaoProduto extends Component {
+class Monitor extends Component {
     render() {
       return <>
         <Menu></Menu>
@@ -18,7 +18,7 @@ class DescricaoProduto extends Component {
             <div className="imagemG">
 
                 <div className="imagem1">
-                    <img src={produto} alt=""/>
+                    <img src={comp3} alt=""/>
                 </div>
 
 
@@ -27,10 +27,10 @@ class DescricaoProduto extends Component {
             <div className="tituloT">
 
                 <div className="tituloNot">
-                    <h1>Notebook Acer Aspire 3 A315-53-52ZZ Intel Core i5 - 8GB 1TB 15,6” Windows 10</h1>
+                    <h1>Computador Samsung All in One Intel Core i5, 8(GB)</h1>
                 </div>
 
-                <p>R$2680,00</p>
+                <p>R$2.999,00</p>
 
                 <div className="btn">
                     <Link to = "/perfiladminteresse" className = "btn_tenhoInteresse"><span>Tenho Interesse</span></Link>
@@ -46,13 +46,9 @@ class DescricaoProduto extends Component {
 
         <article id="corpoanuncio">
             <h2>Descrição:</h2>
-            <p>Precisa de poder de processamento para executar suas atividades com mais velocidade? O notebook Lenovo
-                Ideapad 330 é uma boa opção!
-                Equipado com processador i7, 8GB de RAM e 1TB de HD, você roda programas, vídeos e jogos com maior
-                fluidez e o melhor de tudo, na hora que precisar.
-                Ele também acompanha uma placa de vídeo GeForce MX150 com 2GB para turbinar as suas aplicações. Tudo
-                isso em uma tela de 15,6 polegadas
-                Full HD com abertura 180° para você aproveitar ao máximo os seus conteúdos favoritos.</p>
+            <p>O all in one samsung é a nova palavra em computadores. Sua solução tudo em um, que combina computador com tv em uma tela de alta 
+               resolução full hd de 21.5 polegadas, oferece uma solução completa para conteúdos e multimídia. Seu design moderno e elegante 
+               harmoniza com todo tipo de ambiente, seja em casa ou no escritório.</p>
             <h2>Especificações:</h2>
 
             <table id="tabela_esp">
@@ -86,7 +82,7 @@ class DescricaoProduto extends Component {
 
                 <tr>
                     <td className="ce">Cor</td>
-                    <td className="cd">Prata</td>
+                    <td className="cd">Preta</td>
                 </tr>
 
             </table>
@@ -99,4 +95,4 @@ class DescricaoProduto extends Component {
  }
 }
 
-export default DescricaoProduto;
+export default Monitor;

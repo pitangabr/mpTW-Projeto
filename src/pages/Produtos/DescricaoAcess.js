@@ -4,9 +4,9 @@ import Menu from '../../Componentes/Menu';
 import Rodape from '../../Componentes/Rodape';
 import { Link } from 'react-router-dom';
 
-import produto from '../../assets/imagens/note6.jpg';
+import aces1 from '../../assets/imagens/aces1.jpeg';
 
-class DescricaoProduto extends Component {
+class Acessorios extends Component {
     render() {
       return <>
         <Menu></Menu>
@@ -18,7 +18,7 @@ class DescricaoProduto extends Component {
             <div className="imagemG">
 
                 <div className="imagem1">
-                    <img src={produto} alt=""/>
+                    <img src={aces1} alt=""/>
                 </div>
 
 
@@ -27,10 +27,10 @@ class DescricaoProduto extends Component {
             <div className="tituloT">
 
                 <div className="tituloNot">
-                    <h1>Notebook Acer Aspire 3 A315-53-52ZZ Intel Core i5 - 8GB 1TB 15,6” Windows 10</h1>
+                    <h1>Acessórios com USB-C</h1>
                 </div>
 
-                <p>R$2680,00</p>
+                <p>R$1.774,00</p>
 
                 <div className="btn">
                     <Link to = "/perfiladminteresse" className = "btn_tenhoInteresse"><span>Tenho Interesse</span></Link>
@@ -46,13 +46,9 @@ class DescricaoProduto extends Component {
 
         <article id="corpoanuncio">
             <h2>Descrição:</h2>
-            <p>Precisa de poder de processamento para executar suas atividades com mais velocidade? O notebook Lenovo
-                Ideapad 330 é uma boa opção!
-                Equipado com processador i7, 8GB de RAM e 1TB de HD, você roda programas, vídeos e jogos com maior
-                fluidez e o melhor de tudo, na hora que precisar.
-                Ele também acompanha uma placa de vídeo GeForce MX150 com 2GB para turbinar as suas aplicações. Tudo
-                isso em uma tela de 15,6 polegadas
-                Full HD com abertura 180° para você aproveitar ao máximo os seus conteúdos favoritos.</p>
+            <p>Nova linha de SSDs externos: a empresa americana traz três modelos, com 1TB, 500GB ou 250GB de armazenamento. 
+               Os modelos com 1TB e 500GB pesam 61 gramas e possuem 1.9 cm de espessura. Já o modelo de 250GB pesa apenas 30 gramas e 
+               possui 0.87 cm de espessura. Todos os modelos possuem garantia de três anos e possuem a cor “prata platinado”.</p>
             <h2>Especificações:</h2>
 
             <table id="tabela_esp">
@@ -62,18 +58,13 @@ class DescricaoProduto extends Component {
                     <td className="cd">Modelos com Intel Coreaté 20GB de memória máxima 2400MHz DDR4 (4GB soldados + 1 slot)
                     </td>
                     <tr>
-                        <td className="cd">Modelos com Intel Celeron até 8GB de memória máxima 2400MHz DDR4 (1 slot).</td>
+                        <td className="cd">Os modelos de 500GB e 1TB possuem conectividade Thunderbolt 3</td>
                     </tr>
                 </tr>
 
                 <tr>
                     <td className="ce">Armazenamento</td>
-                    <td className="cd">HD 500GB (5400 rpm) HD 1TB (5400 rpm) SSD 256GB</td>
-                </tr>
-
-                <tr>
-                    <td className="ce">Câmera</td>
-                    <td className="cd">0,3 MP (VGA)</td>
+                    <td className="cd">Com 1TB, 500GB ou 250GB</td>
                 </tr>
 
                 <tr>
@@ -99,4 +90,4 @@ class DescricaoProduto extends Component {
  }
 }
 
-export default DescricaoProduto;
+export default Acessorios;

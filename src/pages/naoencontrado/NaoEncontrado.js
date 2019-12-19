@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../../assets/CSS/NaoEncontrado/naoencontrado.css';
-import robo from '../../assets/imagens/robo.jpg';
+import robo from '../../assets/imagens/robo.png';
 
 class NaoEncontrado extends Component {
     render(){
