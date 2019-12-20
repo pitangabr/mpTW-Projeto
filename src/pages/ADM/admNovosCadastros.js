@@ -3,7 +3,7 @@ import '../../assets/CSS/ADM/PerfilUsuario.css';
 import MenuAdm from '../../Componentes/MenuADM';
 import { Link } from 'react-router-dom';
 
-import imaX from '../../assets/imagens/imaX.png';
+// import imaX from '../../assets/imagens/imaX.png';
 
 class admNovosCadastros extends Component {
     render() {
@@ -12,8 +12,8 @@ class admNovosCadastros extends Component {
             <MenuAdm></MenuAdm>
             <main id="perfilmain">
                 <section id="menu_lateral_esquerdo">
-                    <div class="perfil">
-                        <div class="nome_usuario">
+                    <div className="perfil">
+                        <div className="nome_usuario">
                             <p>Cássio Vincent</p>
                         </div>
                     </div>
@@ -30,10 +30,10 @@ class admNovosCadastros extends Component {
                 </section>
 
                 <section id="lateral_direita">
-                    <div class="topo_direito">
+                    <div className="topo_direito">
                         <h1>Novos Cadastros</h1>
                     </div>
-                    <div class="canto_direito">
+                    <div className="canto_direito">
                         <ul>
                             <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
                             <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
@@ -47,6 +47,15 @@ class admNovosCadastros extends Component {
                             <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
                         </ul>
                     </div>
+
+                    <button className = "BTN2">
+                        <i className="fas fa-check"></i>
+                    </button>
+
+                    <button className = "BTN3">
+                        <i className="fas fa-ban"></i>
+                    </button>
+
                 </section>
             </main>
         </>

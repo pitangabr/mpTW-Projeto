@@ -294,5 +294,23 @@
     text-decoration: white;
     text-decoration-line: underline;
 }
+.BTN2{
+    position: relative;
+    background: #1d2571d7;
+    width: 5vw;
+    height: 6vh;
+    top: -3em;
+    left: 64em;
+}
+
+.BTN3{
+    position: relative;
+    background: #f16984;
+    width: 5vw;
+    height: 6vh;
+    top: -5.76em;
+    left: 55em;
+}
+
 
 
